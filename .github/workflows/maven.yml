@@ -31,5 +31,4 @@ jobs:
             ${{ runner.os }}-maven-
 
       - name: Install dependencies and run tests
-        working-directory: Bookservice  # Ändrad katalog till Bookservice
         run: mvn clean install  # Kör mvn clean install för att installera beroenden och köra tester
